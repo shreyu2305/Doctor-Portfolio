@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Bhavesh Bisen</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="img/logo.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
+  </head>
+  <body>
+    <!-- Main Conatainer Start-->
+    <div class="main-container">
+      <!-- Navbar Start -->
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="Dr. Bhavesh Bisen" />
+          </a>
+        </div>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <label id="icon">
+          <i class="fa fa-bars"></i>
+        </label>
+      </nav>
+      <!-- Navbar End -->
+      <!-- Aside Start -->
+      <!-- <div class="aside">
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="Dr. Bhavesh Bisen" />
+          </a>
+        </div>
+        <div class="nav-toggler">
+          <span><i class="fa fa-bars"></i></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#" class="active"><i class="fa fa-home"> Home</i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-user"> About</i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-list"> Services</i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-blog"> BLog</i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-comments"> Contact</i></a>
+          </li>
+        </ul>
+      </div> -->
+      <!-- Main Content Start -->
+      <div class="main-content">
+        <!-- Home Section Starts -->
+        <section class="home section">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, My name is <span class="name">Bhavesh Bisen</span>
+                </h3>
+                <h3 class="my-profession">
+                  I' m your <span class="typing">Homoeopathy Doctor</span>
+                </h3>
+                <p>
+                  Homoeopathic Physician & Nutritionist | MD in Homoeopathy(Medicine) | M.Sc. in Dietetics and Food Service Management | PG in Applied Psychology | CNCC | CDCW | DOT(Mumbai) | Youtuber (Own 2 Youtube Channel) 
+                </p>
+                <a href="#contact" class="btn about-me">More About Me</a>
+              </div>
+              <div class="home-img padd-15">
+                <img src="/img/PI.jpg" alt="Dr. Bhavesh Bisen" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home Section End  -->
+        <!-- About Section Start  -->
+        <section class="about section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>
+                      I'm Dr. Bhavesh Bisen and <span>Homoeopathy Doctor</span>
+                    </h3>
+                    <p>
+                      Dr. Bhavesh Bisen completed his MD in Homoeopathy from SRK University,
+                      Bhopal. He completed his M.Sc. (DSFM) in Dietetics and Food Service
+                      Management from IGNOU Delhi. He also completed his BHMS and B.Sc. in
+                      Microbiology from RDVV Jabalpur. He is also a Lifetime Member of the
+                      “India Dietetic Association”, Nagpur Chapter. 
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday: <span>DD-MM-YYYY</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age: <span>__</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website: <span>www.drbhaveshbisen.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email: <span>info@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree: <span>MD in Homoeopathy</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone: <span>+91 64554 54545</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City: <span>Bhopal</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <!-- <a href="#" class="btn">Download CV</a> -->
+                        <a href="#contact" class="btn" class="btn appoinment"
+                          >Book an Appoinment</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="qualifications padd-15">
+                    <div class="row">
+                      <div class="qualification-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 86%"></div>
+                          <div class="qualification-percent">86%</div>
+                        </div>
+                      </div>
+                      <div class="qualification-item padd-15">
+                        <h5>PHP</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 66%"></div>
+                          <div class="qualification-percent">66%</div>
+                        </div>
+                      </div>
+                      <div class="qualification-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 66%"></div>
+                          <div class="qualification-percent">66%</div>
+                        </div>
+                      </div>
+                      <div class="qualification-item padd-15">
+                        <h5>Bootstrap</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="qualification-percent">76%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- Timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"> 20__-20__</i>
+                            </h3>
+                            <h4 class="timeline-title">
+                              MD in Homoeopathy
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Fuga cum suscipit, natus dolore
+                              distinctio blanditiis.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"> 20__-20__</i>
+                            </h3>
+                            <h4 class="timeline-title">
+                              M.Sc. in Dietetics and Food Service Management
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Fuga cum suscipit, natus dolore
+                              distinctio blanditiis.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"> 2013-2015</i>
+                            </h3>
+                            <h4 class="timeline-title">
+                              PG in Applied Psychology
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Fuga cum suscipit, natus dolore
+                              distinctio blanditiis.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- Timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"> 20__-20__</i>
+                            </h3>
+                            <h4 class="timeline-title">
+                              CNCC
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Fuga cum suscipit, natus dolore
+                              distinctio blanditiis.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"> 20__-20__</i>
+                            </h3>
+                            <h4 class="timeline-title">
+                              CDCW
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Fuga cum suscipit, natus dolore
+                              distinctio blanditiis.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"> 20__-20__</i>
+                            </h3>
+                            <h4 class="timeline-title">
+                              DOT
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Fuga cum suscipit, natus dolore
+                              distinctio blanditiis.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Section End  -->
+        <!-- Services Section Starts -->
+        <section class="service section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Services item Start -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>On-Call Consultation</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo dolorum sit, tempore quam error vel, magni repellendus
+                    atque sed dolores tempora nobis ratione numquam quod!
+                  </p>
+                </div>
+              </div>
+              <!-- Services item end -->
+              <!-- Services item Start -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Clinic Appoinment</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo dolorum sit, tempore quam error vel, magni repellendus
+                    atque sed dolores tempora nobis ratione numquam quod!
+                  </p>
+                </div>
+              </div>
+              <!-- Services item end -->
+              <!-- Services item Start -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Homoeopathic Home Vedio Playlist</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo dolorum sit, tempore quam error vel, magni repellendus
+                    atque sed dolores tempora nobis ratione numquam quod!
+                  </p>
+                </div>
+              </div>
+              <!-- Services item end -->
+              <!-- Services item Start -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Paided Playlist On Youtube</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo dolorum sit, tempore quam error vel, magni repellendus
+                    atque sed dolores tempora nobis ratione numquam quod!
+                  </p>
+                </div>
+              </div>
+              <!-- Services item end -->
+            </di>
+          </div>
+        </section>
+        <!-- Services Section Ends -->
+        <!-- Contact Section Starts -->
+        <section class="contact section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Conatct For Consultation</h3>
+            <h4 class="contact-sub-title padd-15">Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+            <div class="row">
+              <!-- Contact info item Start -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+91 7777888899</p>
+              </div>
+              <!-- Contact info item End -->
+              <!-- Contact info item Start -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Clinic</h4>
+                <p>Bhopal</p>
+              </div>
+              <!-- Contact info item End -->
+              <!-- Contact info item Start -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>xyz@gamil.com</p>
+              </div>
+              <!-- Contact info item End -->
+              <!-- Contact info item Start -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.drbhaveshbisen.com</p>
+              </div>
+              <!-- Contact info item End -->
+            </div>
+            <h3 class="contact-title padd-15">Subscribe To My Daily Blogs</h3>
+            <h4 class="contact-sub-title padd-15">Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+            <!-- Contact Form -->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button type="submit" class="btn">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section Ends -->
+      </div>
+      <!-- Footer Starts -->
+      <section class="footer">
+        <div class="share">
+          <a href="https://www.facebook.com/drbhavesh.bisen" target="_blank" class="fab fa-facebook-f"></a>
+          <a href="https://twitter.com/drbhaveshbisen1" target="_blank" class="fab fa-twitter"></a>
+          <a href="https://www.instagram.com/drbhaveshbisen/" target="_blank" class="fab fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/dr-bhavesh-bisen-b6626b36/" target="_blank" class="fab fa-linkedin"></a>
+        </div>
+  
+        <div class="links">
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="credit">
+          Copyright © 2022 Dr. Bhavesh Bisen | All Rights Reserved
+        </div>
+      </section>
+      <!-- Footer Ends -->
+      <!-- Main Content End -->
+      <!-- Aside End -->
+    </div>
+    <!-- Main Conatainer End-->
+    <!-- ========= JS Files ======== -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
